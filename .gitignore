@@ -1,0 +1,11 @@
+# Build, install, and log directories
+build/
+install/
+log/
+
+# Common ROS/development artifacts
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
