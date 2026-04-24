@@ -1,3 +1,4 @@
+![medicine delivery demo](./medicine_delivery.gif)
 ### Simulation commads
 ```sh
 ros2 launch rosbot_description gazebo.launch.py
