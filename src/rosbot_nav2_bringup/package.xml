@@ -4,6 +4,8 @@
   <name>rosbot_nav2_bringup</name>
   <version>1.3.4</version>
   <description>Bringup scripts and configurations for the Nav2 stack</description>
+    <maintainer email="sravanedigi123@gmail.com">author</maintainer>
+
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

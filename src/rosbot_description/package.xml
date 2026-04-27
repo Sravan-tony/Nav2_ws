@@ -4,7 +4,7 @@
 <name>rosbot_description</name>
   <version>0.0.0</version>
 <description>The rosbot_description package</description>
-  <maintainer email="sravanedigi123.com">author</maintainer>
+  <maintainer email="sravanedigi123@gmail.com">author</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>xacro</depend>
