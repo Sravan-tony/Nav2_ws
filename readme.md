@@ -1,5 +1,5 @@
 # Autonomous Medicine Delivery Robot (ROS 2 + Gazebo)
-![medicine delivery demo](./medicine_delivery.gif)
+![medicine delivery demo](./medicine_delivery.gif) ![mapping demo](./mapping.gif)
 
 ## Overview
 
@@ -41,11 +41,21 @@ The robot performs the following tasks:
 
 ---
 
-### Simulation commads
+### Simulation commads for medicine delivery
 ```sh
 ros2 launch rosbot_description gazebo.launch.py
 
 ros2 launch rosbot_nav2_bringup nav2.launch.py
 
 ros2 run nav2_client navigation_client
+```
+### Simulation commads for manual mapping
+```sh
+ros2 launch rosbot_description gazebo.launch.py
+
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=True
+
+rviz2
 ```
