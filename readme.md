@@ -33,8 +33,8 @@ The robot performs the following tasks:
 
 ## Requirements
 
-- Ubuntu 22.04 / 20.04
-- ROS 2 Humble / Foxy
+- Ubuntu 22.04 / 20.04 / 24.04
+- ROS 2 Humble / Foxy / jazzy
 - Gazebo
 - Nav2
 - Python / C++
